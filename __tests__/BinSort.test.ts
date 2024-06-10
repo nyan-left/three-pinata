@@ -1,3 +1,4 @@
+import { describe, test, expect } from "vitest";
 import { BinSort, IBinSortable } from "../src/fracture/utils/BinSort";
 
 class BinnedObjectMock implements IBinSortable {

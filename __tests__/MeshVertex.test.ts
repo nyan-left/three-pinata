@@ -1,3 +1,4 @@
+import { describe, test, expect } from "vitest";
 import MeshVertex from "../src/fracture/entities/MeshVertex";
 import { Vector3 } from "three";
 
