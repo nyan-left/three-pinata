@@ -1,3 +1,4 @@
+import { describe, it, expect } from "vitest";
 import { Vector2, Vector3 } from "three";
 import { ConstrainedTriangulator } from "../src/fracture/triangulators/ConstrainedTriangulator";
 import MeshVertex from "../src/fracture/entities/MeshVertex";

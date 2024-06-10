@@ -1,3 +1,4 @@
+import { describe, test, expect } from "vitest";
 import { Vector2, Vector3 } from "three";
 import * as MathUtils from "../src/fracture/utils/MathUtils";
 

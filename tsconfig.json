@@ -3,23 +3,22 @@
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "lib": [
-      "ESNext",
-      "DOM",
-      "DOM.Iterable"
-    ],
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
     /* Bundler mode */
     "moduleResolution": "Bundler",
-    "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
     /* Linting */
     "strict": true
   },
   "include": [
     "src",
-    "__tests__"
+    "__tests__",
+    "demo/physics",
+    "demo/app.ts",
+    "demo/vite-env.d.ts"
   ]
 }

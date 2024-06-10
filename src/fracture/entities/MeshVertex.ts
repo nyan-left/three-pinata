@@ -37,8 +37,8 @@ export default class MeshVertex {
    * @param other
    * @returns
    */
-  equals(other: MeshVertex, tolerance: number = 1e-9): boolean {
-    return this.hash(tolerance) === other.hash(tolerance);
+  equals(other: MeshVertex, tolerance: number = 1e-6): boolean {
+    return this.hash(1 / tolerance) === other.hash(1 / tolerance);
   }
 
   toString(): string {

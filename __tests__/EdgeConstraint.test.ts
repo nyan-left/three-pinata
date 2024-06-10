@@ -1,3 +1,4 @@
+import { describe, test, expect } from "vitest";
 import EdgeConstraint from "../src/fracture/entities/EdgeConstraint";
 
 describe("EdgeConstraint", () => {
