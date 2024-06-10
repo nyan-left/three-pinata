@@ -12,11 +12,17 @@ This is a Typescript port of the [OpenFracture](https://github.com/dgreenheck/Op
 
 The demo app utilizes [Rapier](https://www.rapier.rs/docs/user_guides/javascript/getting_started_js) for the collision detection and physics.
 
-# Live Demo
+## Live Demo
 
 https://nyan-left.github.io/three-pinata/
 
-# Running Demo Locally
+## NPM
+
+```sh
+npm install three-pinata
+```
+
+## Running Demo Locally
 
 1. Clone the repo
 2. Run the following commands in the root folder
@@ -28,11 +34,11 @@ npm run dev
 
 2. Go to http://127.0.0.1:5173/three-pinata/ in your browser.
 
-# Documentation
+## Documentation
 
 Coming soon!
 
-# Todo
+## Todo
 
 - Improved demo
 - Offload computation to web workers
