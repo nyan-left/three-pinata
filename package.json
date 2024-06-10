@@ -16,8 +16,7 @@
     "watch": "tsc -w --noEmit"
   },
   "files": [
-    "lib/**/*",
-    "public/**/*"
+    "lib/**/*"
   ],
   "repository": {
     "type": "git",
