@@ -6,6 +6,10 @@ This is a Typescript port of the [OpenFracture](https://github.com/dgreenheck/Op
 
 The demo app utilizes [Rapier](https://www.rapier.rs/docs/user_guides/javascript/getting_started_js) for the collision detection and physics.
 
+## Fork Information
+
+This repository is a fork of [three-pinata](https://github.com/dgreenheck/three-pinata). The reason for this fork is to decouple the physics engine from the original project and publish it on npm for easier integration into other projects.
+
 # Live Demo
 
 https://dgreenheck.github.io/three-pinata/
