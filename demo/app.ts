@@ -2,9 +2,10 @@ import * as THREE from "three";
 import { GUI } from "three/addons/libs/lil-gui.module.min.js";
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+
 import { PhysicsManager } from "./physics/PhysicsManager";
 import { BreakableObject } from "./physics/BreakableObject";
-import { FractureOptions } from "./fracture/entities/FractureOptions";
+import { FractureOptions } from "../src/fracture/entities/FractureOptions";
 
 type RAPIER_API = typeof import("@dimforge/rapier3d");
 const RAPIER = await import("@dimforge/rapier3d");

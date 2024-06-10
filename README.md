@@ -1,14 +1,16 @@
 # three-pinata
 
+## Fork Information
+
+This repository is a fork of [three-pinata](https://github.com/dgreenheck/three-pinata). The reason for this fork is to decouple the physics engine from the original project and publish it on npm for easier integration into other projects.
+
+## three-pinata
+
 Three.js library for fracturing and slicing non-convex meshes in real time.
 
 This is a Typescript port of the [OpenFracture](https://github.com/dgreenheck/OpenFracture) library I wrote for Unity several years ago.
 
 The demo app utilizes [Rapier](https://www.rapier.rs/docs/user_guides/javascript/getting_started_js) for the collision detection and physics.
-
-## Fork Information
-
-This repository is a fork of [three-pinata](https://github.com/dgreenheck/three-pinata). The reason for this fork is to decouple the physics engine from the original project and publish it on npm for easier integration into other projects.
 
 # Live Demo
 
