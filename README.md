@@ -14,7 +14,7 @@ The demo app utilizes [Rapier](https://www.rapier.rs/docs/user_guides/javascript
 
 # Live Demo
 
-https://dgreenheck.github.io/three-pinata/
+https://nyan-left.github.io/three-pinata/
 
 # Running Demo Locally
 
